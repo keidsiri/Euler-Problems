@@ -4,7 +4,7 @@ import threeOrFive from './../src/euler.js';
 describe('threeOrFive', () => {
 
   test('should return 0 when the input is divisible by 3', () => {
-    expect(threeOrFive(9)).toEqual(0);
+    expect(threeOrFive(7)).toEqual(false);
   });
 });
 
@@ -25,5 +25,3 @@ describe('threeOrFive', () => {
 //     expect(triangle.side3).toEqual(5);
 //   });
 // });
-
-
